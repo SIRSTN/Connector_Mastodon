@@ -31,7 +31,7 @@ keywords_ethereum = ["Ethereum", "ETH"]
 timeframe_start = datetime.now(timezone.utc) - timedelta(hours=12)
 
 # API URL to send data
-api_url = "http://localhost:5000/store-text"
+api_url = "http://localhost:5001/store-text"
 
 # Function to process Mastodon posts
 def process_mastodon_posts(toots, keywords):
